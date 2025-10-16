@@ -1,0 +1,133 @@
+.contact-form-section {
+  padding: 5rem 0;
+  background: linear-gradient(180deg, hsl(var(--primary) / 0.03) 0%, hsl(var(--background)) 100%);
+}
+
+.contact-form-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.contact-form-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.contact-form-label {
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: hsl(var(--primary));
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+}
+
+.contact-form-heading {
+  font-size: 3rem;
+  font-weight: 800;
+  color: hsl(var(--foreground));
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.contact-form-description {
+  font-size: 1.125rem;
+  color: hsl(var(--muted-foreground));
+  line-height: 1.7;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form {
+  background: hsl(var(--card));
+  padding: 3rem;
+  border-radius: 2rem;
+  box-shadow: var(--shadow-soft);
+  border: 1px solid hsl(var(--border));
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-label {
+  display: block;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: hsl(var(--foreground));
+  margin-bottom: 0.75rem;
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 1rem 1.25rem;
+  border-radius: 1rem;
+  border: 1px solid hsl(var(--border));
+  background: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  font-family: inherit;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  outline: none;
+  border-color: hsl(var(--primary));
+  box-shadow: 0 0 0 3px hsl(var(--primary) / 0.1);
+}
+
+.form-textarea {
+  resize: vertical;
+  min-height: 140px;
+}
+
+.form-input::placeholder,
+.form-textarea::placeholder {
+  color: hsl(var(--muted-foreground));
+}
+
+.form-submit-button {
+  width: 100%;
+  padding: 1.125rem 2rem;
+  background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--primary-dark)) 100%);
+  color: hsl(var(--primary-foreground));
+  font-size: 1.0625rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 14px hsl(var(--primary) / 0.3);
+}
+
+.form-submit-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px hsl(var(--primary) / 0.4);
+}
+
+.form-submit-button:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 800px) {
+  .contact-form-section {
+    padding: 3rem 0;
+  }
+
+  .contact-form-heading {
+    font-size: 2rem;
+  }
+
+  .contact-form {
+    padding: 2rem;
+  }
+
+  .form-input,
+  .form-textarea {
+    padding: 0.875rem 1rem;
+  }
+}

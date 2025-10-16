@@ -1,0 +1,121 @@
+.mission-section {
+  padding: 5rem 0;
+  background: linear-gradient(180deg, hsl(var(--muted)) 0%, hsl(var(--background)) 100%);
+}
+
+.mission-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.mission-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.mission-text {
+  animation: fade-in-up 0.8s ease-out;
+}
+
+.mission-heading {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  color: hsl(var(--foreground));
+}
+
+.mission-description {
+  font-size: 1.125rem;
+  color: hsl(var(--muted-foreground));
+  line-height: 1.8;
+  margin-bottom: 2.5rem;
+}
+
+.values-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.value-item {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 1.25rem;
+  background: hsl(var(--card));
+  border-radius: 1rem;
+  border: 1px solid hsl(var(--border));
+  transition: all 0.3s ease;
+}
+
+.value-item:hover {
+  box-shadow: var(--shadow-card);
+  transform: translateX(8px);
+}
+
+.value-icon-wrapper {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  background: hsl(var(--primary) / 0.1);
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.value-icon {
+  width: 24px;
+  height: 24px;
+  color: hsl(var(--primary));
+}
+
+.value-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+  color: hsl(var(--foreground));
+}
+
+.value-description {
+  font-size: 0.9375rem;
+  color: hsl(var(--muted-foreground));
+  line-height: 1.6;
+}
+
+.mission-image-wrapper {
+  animation: slide-in-right 0.8s ease-out;
+}
+
+.mission-image {
+  width: 100%;
+  height: auto;
+  border-radius: 1.5rem;
+  box-shadow: var(--shadow-soft);
+}
+
+@media (max-width: 800px) {
+  .mission-section {
+    padding: 3rem 0;
+  }
+
+  .mission-content {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .mission-heading {
+    font-size: 2rem;
+  }
+
+  .mission-image-wrapper {
+    order: -1;
+  }
+
+  .value-item:hover {
+    transform: translateX(0);
+  }
+}

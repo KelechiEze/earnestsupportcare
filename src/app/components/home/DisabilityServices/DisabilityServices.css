@@ -1,0 +1,245 @@
+.disability-section {
+  padding: 5rem 0;
+  background: hsl(var(--background));
+}
+
+.disability-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.disability-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: center;
+}
+
+.disability-image-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  height: 100%;
+}
+
+.disability-image-large {
+  grid-row: 1 / 3;
+  border-radius: 2rem;
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+}
+
+.disability-image-small {
+  border-radius: 1.5rem;
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+}
+
+.disability-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.disability-image-large:hover .disability-img,
+.disability-image-small:hover .disability-img {
+  transform: scale(1.05);
+}
+
+.disability-label {
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: hsl(var(--primary));
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+}
+
+.disability-heading {
+  font-size: 2.75rem;
+  font-weight: 800;
+  color: hsl(var(--foreground));
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.disability-description {
+  font-size: 1.0625rem;
+  color: hsl(var(--muted-foreground));
+  line-height: 1.7;
+  margin-bottom: 2.5rem;
+}
+
+.disability-features {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.disability-feature {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+}
+
+.feature-icon-wrapper {
+  width: 56px;
+  height: 56px;
+  background: hsl(var(--primary) / 0.1);
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.feature-icon {
+  width: 28px;
+  height: 28px;
+  color: hsl(var(--primary));
+}
+
+.feature-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: hsl(var(--foreground));
+  margin-bottom: 0.5rem;
+}
+
+.feature-text {
+  font-size: 1rem;
+  color: hsl(var(--muted-foreground));
+  line-height: 1.6;
+}
+
+.disability-rating {
+  background: hsl(var(--card));
+  border: 1px solid hsl(var(--border));
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.rating-stars {
+  display: flex;
+  gap: 0.375rem;
+  margin-bottom: 0.75rem;
+}
+
+.star-icon {
+  width: 20px;
+  height: 20px;
+  color: #FFB800;
+}
+
+.rating-text {
+  font-size: 0.9375rem;
+  color: hsl(var(--foreground));
+  font-weight: 500;
+}
+
+.disability-cta {
+  background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--primary-dark)) 100%);
+  border-radius: 1.5rem;
+  padding: 2rem;
+  color: hsl(var(--primary-foreground));
+}
+
+.cta-question {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.cta-actions {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background: hsl(var(--primary-foreground));
+  color: hsl(var(--primary));
+  font-weight: 600;
+  border-radius: 9999px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+}
+
+.cta-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.cta-contact {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact-icon-circle {
+  width: 52px;
+  height: 52px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-phone-icon {
+  width: 24px;
+  height: 24px;
+  color: hsl(var(--primary-foreground));
+}
+
+.contact-number {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: hsl(var(--primary-foreground));
+  text-decoration: none;
+  margin-bottom: 0.25rem;
+}
+
+.contact-number:hover {
+  text-decoration: underline;
+}
+
+.contact-label-text {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+@media (max-width: 800px) {
+  .disability-section {
+    padding: 3rem 0;
+  }
+
+  .disability-content {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .disability-heading {
+    font-size: 2rem;
+  }
+
+  .disability-image-grid {
+    max-height: 500px;
+  }
+
+  .cta-actions {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+}

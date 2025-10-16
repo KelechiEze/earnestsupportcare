@@ -1,0 +1,116 @@
+.approach-section {
+  padding: 5rem 0;
+  background: linear-gradient(180deg, hsl(var(--background)) 0%, hsl(var(--primary) / 0.03) 100%);
+}
+
+.approach-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.approach-header {
+  text-align: center;
+  margin-bottom: 4rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.approach-label {
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: hsl(var(--primary));
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+}
+
+.approach-heading {
+  font-size: 3rem;
+  font-weight: 800;
+  color: hsl(var(--foreground));
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.approach-description {
+  font-size: 1.125rem;
+  color: hsl(var(--muted-foreground));
+  line-height: 1.7;
+}
+
+.approach-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.approach-card {
+  background: hsl(var(--card));
+  padding: 2.5rem;
+  border-radius: 1.5rem;
+  border: 1px solid hsl(var(--border));
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.approach-card:hover {
+  box-shadow: var(--shadow-soft);
+  transform: translateY(-8px);
+  border-color: hsl(var(--primary) / 0.3);
+}
+
+.approach-icon-wrapper {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--primary-dark)) 100%);
+  border-radius: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+  box-shadow: 0 8px 20px hsl(var(--primary) / 0.25);
+}
+
+.approach-icon {
+  width: 40px;
+  height: 40px;
+  color: hsl(var(--primary-foreground));
+}
+
+.approach-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: hsl(var(--foreground));
+  margin-bottom: 1rem;
+}
+
+.approach-text {
+  font-size: 1rem;
+  color: hsl(var(--muted-foreground));
+  line-height: 1.6;
+}
+
+@media (max-width: 800px) {
+  .approach-section {
+    padding: 3rem 0;
+  }
+
+  .approach-heading {
+    font-size: 2rem;
+  }
+
+  .approach-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .approach-card {
+    padding: 2rem;
+  }
+
+  .approach-card:hover {
+    transform: translateY(-4px);
+  }
+}
