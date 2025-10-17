@@ -115,23 +115,6 @@ const Services = () => {
             </div>
           </div>
         </section>
-
-        <section className="services-cta-section">
-          <div className="services-container-inner">
-            <motion.div
-              initial={{ y: 30, opacity: 0 }}
-              whileInView={{ y: 0, opacity: 1 }}
-              viewport={{ once: true }}
-              className="services-cta-content"
-            >
-              <h2>Ready to Learn More?</h2>
-              <p>Contact us today to discuss how our services can support you or your loved ones</p>
-              <div className="services-cta-buttons">
-                <a href="/contact" className="services-btn services-btn-primary">Get in Touch</a>
-              </div>
-            </motion.div>
-          </div>
-        </section>
       </div>
       <Footer />
     </div>

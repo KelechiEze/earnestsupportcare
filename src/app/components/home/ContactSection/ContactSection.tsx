@@ -6,13 +6,17 @@ const ContactSection = () => {
   return (
     <section className="contact-section">
       <div className="contact-container">
+        {/* Centered Header Section */}
+        <div className="contact-header-centered">
+          <h2 className="contact-heading">Get in Touch</h2>
+          <p className="contact-description">
+            We&apos;re here to answer your questions and discuss how we can support you or your loved ones.
+          </p>
+        </div>
+
+        {/* Horizontal Content Section */}
         <div className="contact-content">
           <div className="contact-info">
-            <h2 className="contact-heading">Get in Touch</h2>
-            <p className="contact-description">
-              We&apos;re here to answer your questions and discuss how we can support you or your loved ones.
-            </p>
-
             <div className="contact-details">
               <a href="mailto:Lucy@earnestsupportcares.com" className="contact-item">
                 <div className="contact-icon-wrapper">

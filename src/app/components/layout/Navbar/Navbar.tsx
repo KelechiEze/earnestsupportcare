@@ -75,9 +75,6 @@ const Navbar = () => {
           >
             Contact Us
           </Link>
-          <Link href="/contact" className="navbar-button">
-            Get Started
-          </Link>
         </div>
       </div>
     </nav>

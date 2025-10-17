@@ -57,17 +57,17 @@
 }
 
 .hero-title {
-  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-size: clamp(1.75rem, 4vw, 3rem); /* Reduced from 2rem, 5vw, 3.5rem */
   font-weight: 800;
   line-height: 1.2;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem; /* Reduced from 1.5rem */
   text-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 .hero-subtitle {
-  font-size: clamp(1rem, 2vw, 1.25rem);
-  line-height: 1.7;
-  margin-bottom: 2.5rem;
+  font-size: clamp(0.9rem, 1.8vw, 1.1rem); /* Reduced from 1rem, 2vw, 1.25rem */
+  line-height: 1.6; /* Reduced from 1.7 */
+  margin-bottom: 2rem; /* Reduced from 2.5rem */
   color: rgba(255, 255, 255, 0.95);
   max-width: 700px;
   margin-left: auto;
@@ -82,8 +82,8 @@
 }
 
 .hero-button {
-  padding: 1rem 2.5rem;
-  font-size: 1.0625rem;
+  padding: 0.875rem 2rem; /* Reduced from 1rem 2.5rem */
+  font-size: 0.95rem; /* Reduced from 1.0625rem */
   font-weight: 600;
   border-radius: 9999px;
   text-decoration: none;
@@ -185,11 +185,11 @@
   }
 
   .hero-title {
-    font-size: 2rem;
+    font-size: 1.75rem; /* Reduced from 2rem */
   }
 
   .hero-subtitle {
-    font-size: 1rem;
+    font-size: 0.9rem; /* Reduced from 1rem */
   }
 
   .hero-buttons {
@@ -199,6 +199,8 @@
 
   .hero-button {
     width: 100%;
+    padding: 0.75rem 1.5rem; /* Reduced from default */
+    font-size: 0.9rem; /* Reduced from default */
   }
 
   .hero-nav {
@@ -216,5 +218,27 @@
 
   .hero-indicators {
     bottom: 2rem;
+  }
+}
+
+/* Additional mobile optimization for very small screens */
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 1.5rem; /* Further reduced for very small screens */
+    margin-bottom: 1rem; /* Reduced from 1.25rem */
+  }
+
+  .hero-subtitle {
+    font-size: 0.85rem; /* Further reduced for very small screens */
+    margin-bottom: 1.5rem; /* Reduced from 2rem */
+  }
+
+  .hero-content {
+    padding: 0 1rem; /* Reduced side padding */
+  }
+
+  .hero-button {
+    padding: 0.7rem 1.25rem; /* Further reduced padding */
+    font-size: 0.85rem; /* Further reduced font size */
   }
 }

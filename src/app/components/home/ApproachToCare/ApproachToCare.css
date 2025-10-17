@@ -17,34 +17,25 @@
   margin-right: auto;
 }
 
-.approach-label {
-  display: inline-block;
-  font-size: 0.875rem;
-  font-weight: 600;
-  color: hsl(var(--primary));
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  margin-bottom: 1rem;
-}
-
 .approach-heading {
-  font-size: 3rem;
+  font-size: 2.5rem; /* Reduced from 3rem */
   font-weight: 800;
   color: hsl(var(--foreground));
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem; /* Reduced from 1.5rem */
   line-height: 1.2;
 }
 
 .approach-description {
-  font-size: 1.125rem;
+  font-size: 1rem; /* Reduced from 1.125rem */
   color: hsl(var(--muted-foreground));
-  line-height: 1.7;
+  line-height: 1.6; /* Reduced from 1.7 */
 }
 
 .approach-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
+  margin-bottom: 4rem;
 }
 
 .approach-card {
@@ -81,16 +72,87 @@
 }
 
 .approach-title {
-  font-size: 1.5rem;
+  font-size: 1.25rem; /* Reduced from 1.5rem */
   font-weight: 700;
   color: hsl(var(--foreground));
-  margin-bottom: 1rem;
+  margin-bottom: 0.875rem; /* Reduced from 1rem */
 }
 
 .approach-text {
-  font-size: 1rem;
+  font-size: 0.9rem; /* Reduced from 1rem */
   color: hsl(var(--muted-foreground));
-  line-height: 1.6;
+  line-height: 1.5; /* Reduced from 1.6 */
+}
+
+.approach-cta {
+  text-align: center;
+}
+
+.cta-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.875rem 1.75rem; /* Reduced from 1rem 2rem */
+  background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--primary-dark)) 100%);
+  color: hsl(var(--primary-foreground));
+  font-size: 1rem; /* Reduced from 1.125rem */
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 2rem;
+  box-shadow: 0 8px 25px hsl(var(--primary) / 0.3);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  animation: bounce 2s infinite ease-in-out;
+}
+
+.cta-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  transition: left 0.5s ease;
+}
+
+.cta-button:hover::before {
+  left: 100%;
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 35px hsl(var(--primary) / 0.4);
+  animation: none;
+}
+
+.cta-button:active {
+  transform: translateY(0);
+}
+
+/* Bounce animation that stops when scrolled */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-8px); /* Reduced from -10px */
+  }
+  60% {
+    transform: translateY(-4px); /* Reduced from -5px */
+  }
+}
+
+/* Class to stop bouncing when scrolled up */
+.cta-button.stop-bounce {
+  animation: none;
+  transform: translateY(0);
+}
+
+/* Smooth transition when stopping bounce */
+.cta-button {
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media (max-width: 800px) {
@@ -99,7 +161,11 @@
   }
 
   .approach-heading {
-    font-size: 2rem;
+    font-size: 1.75rem; /* Reduced from 2rem */
+  }
+
+  .approach-description {
+    font-size: 0.9rem; /* Reduced for mobile */
   }
 
   .approach-grid {
@@ -112,5 +178,50 @@
 
   .approach-card:hover {
     transform: translateY(-4px);
+  }
+
+  .approach-title {
+    font-size: 1.125rem; /* Reduced from default mobile size */
+  }
+
+  .approach-text {
+    font-size: 0.85rem; /* Reduced from default mobile size */
+  }
+
+  .cta-button {
+    padding: 0.75rem 1.5rem; /* Reduced from 0.875rem 1.5rem */
+    font-size: 0.9rem; /* Reduced from 1rem */
+  }
+}
+
+/* Additional mobile optimization for very small screens */
+@media (max-width: 480px) {
+  .approach-heading {
+    font-size: 1.5rem; /* Further reduced for very small screens */
+    margin-bottom: 1rem; /* Reduced from 1.25rem */
+  }
+
+  .approach-description {
+    font-size: 0.85rem; /* Further reduced for very small screens */
+    line-height: 1.5; /* Reduced from 1.6 */
+  }
+
+  .approach-card {
+    padding: 1.5rem; /* Reduced from 2rem */
+  }
+
+  .approach-title {
+    font-size: 1.0625rem; /* Further reduced */
+    margin-bottom: 0.75rem; /* Reduced from 0.875rem */
+  }
+
+  .approach-text {
+    font-size: 0.8rem; /* Further reduced */
+    line-height: 1.4; /* Reduced from 1.5 */
+  }
+
+  .cta-button {
+    padding: 0.7rem 1.25rem; /* Further reduced */
+    font-size: 0.85rem; /* Further reduced */
   }
 }

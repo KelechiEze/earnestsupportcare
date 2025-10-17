@@ -57,12 +57,6 @@ const Footer = () => {
           </div>
 
           <div className="footer-section">
-            <h3 className="footer-heading">Stay Updated</h3>
-            <p className="footer-newsletter-text">Subscribe to our newsletter for updates and news.</p>
-            <div className="footer-newsletter">
-              <input type="email" placeholder="Your email" className="footer-newsletter-input" />
-              <button className="footer-newsletter-button">Subscribe</button>
-            </div>
           </div>
         </div>
 

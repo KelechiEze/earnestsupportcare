@@ -1,4 +1,5 @@
 import { Heart, Users, Shield, Handshake } from 'lucide-react';
+import Link from 'next/link';
 import './ApproachToCare.css';
 
 const ApproachToCare = () => {
@@ -29,7 +30,6 @@ const ApproachToCare = () => {
     <section className="approach-section">
       <div className="approach-container">
         <div className="approach-header">
-          <span className="approach-label">Our Philosophy</span>
           <h2 className="approach-heading">Our Approach to Care</h2>
           <p className="approach-description">
             At Earnest Support Care, we believe in empowering individuals through compassionate, 
@@ -50,6 +50,12 @@ const ApproachToCare = () => {
               </div>
             );
           })}
+        </div>
+
+        <div className="approach-cta">
+          <Link href="/our-care" className="cta-button">
+            Click here to learn more
+          </Link>
         </div>
       </div>
     </section>

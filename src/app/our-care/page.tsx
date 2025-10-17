@@ -146,21 +146,7 @@ const OurCare = () => {
           </div>
         </section>
 
-        <section className="care-quote-section">
-          <div className="care-container">
-            <motion.div
-              initial={{ scale: 0.95, opacity: 0 }}
-              whileInView={{ scale: 1, opacity: 1 }}
-              viewport={{ once: true }}
-              className="care-quote-card"
-            >
-              <blockquote>
-                &quot;With supported living, you&apos;ll enjoy the freedom of your own front door, while knowing you&apos;re safe, secure, and never alone.&quot;
-              </blockquote>
-              <cite>— Earnest Support Care Promise</cite>
-            </motion.div>
-          </div>
-        </section>
+  
 
         <section className="care-cta-section">
           <div className="care-container">

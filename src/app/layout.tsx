@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import ScrollToTop from "./ScrollToTop";
 
 const poppins = Poppins({
   weight: ['300', '400', '500', '600', '700'],
@@ -24,6 +25,7 @@ export default function RootLayout({
         className={`${poppins.variable} font-sans antialiased`}
       >
         {children}
+        <ScrollToTop />
       </body>
     </html>
   );
