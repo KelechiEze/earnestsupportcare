@@ -94,7 +94,7 @@ const About = () => {
               <p className="intro-label">GET TO KNOW ABOUT US</p>
               <h2>Exceptional Disability Care Services</h2>
               <p className="intro-description">
-                At Earnest Support Care, we are dedicated to providing compassionate, personalized care that empowers individuals to live fulfilling and independent lives. Our approach focuses on respecting individual choice and promoting dignity in every aspect of care.
+                At Earnest Domiciliary Care, we are dedicated to providing compassionate, personalized care that empowers individuals to live fulfilling and independent lives. Our approach focuses on respecting individual choice and promoting dignity in every aspect of care.
               </p>
 
               <div className="intro-features">
@@ -159,7 +159,7 @@ const About = () => {
               <p className="story-label">OUR STORY</p>
               <h2>Committed to Excellence in Disability Care</h2>
               <p className="story-description">
-                Earnest Support Care was founded with a simple yet powerful vision: to provide care that goes beyond meeting basic needs. We believe that every individual deserves to be treated with dignity, respect, and compassion.
+                Earnest Domiciliary Care was founded with a simple yet powerful vision: to provide care that goes beyond meeting basic needs. We believe that every individual deserves to be treated with dignity, respect, and compassion.
               </p>
               <p className="story-description">
                 Our journey began with a commitment to supporting adults with learning disabilities, autism, mental health challenges, and physical disabilities. Today, we continue to honor that commitment by offering personalized care plans that celebrate each person&apos;s unique strengths and aspirations.
