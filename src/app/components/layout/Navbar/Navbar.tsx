@@ -3,7 +3,8 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Menu, X, HeartHandshake } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
+import Image from 'next/image';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -12,31 +13,33 @@ const Navbar = () => {
   const pathname = usePathname();
 
   useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
-    };
+    const handleScroll = () => setIsScrolled(window.scrollY > 50);
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Close mobile menu when route changes
   useEffect(() => {
     setIsMobileMenuOpen(false);
   }, [pathname]);
 
-  const isActive = (path: string) => {
-    return pathname === path;
-  };
+  const isActive = (path: string) => pathname === path;
 
   return (
     <nav className={`navbar ${isScrolled ? 'navbar-scrolled' : ''}`}>
       <div className="navbar-container">
+        {/* ✅ Updated Logo (larger image) */}
         <Link href="/" className="navbar-logo">
-          <HeartHandshake className="navbar-logo-icon" />
+          <Image
+            src="/log1.jpg"
+            alt="Earnest Domiciliary Care Logo"
+            width={55}
+            height={55}
+            className="navbar-logo-image"
+          />
           <span className="navbar-logo-text">Earnest Domiciliary Care</span>
         </Link>
 
-        <button 
+        <button
           className="navbar-toggle"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           aria-label="Toggle menu"
@@ -45,34 +48,19 @@ const Navbar = () => {
         </button>
 
         <div className={`navbar-menu ${isMobileMenuOpen ? 'navbar-menu-open' : ''}`}>
-          <Link 
-            href="/" 
-            className={`navbar-link ${isActive('/') ? 'navbar-link-active' : ''}`}
-          >
+          <Link href="/" className={`navbar-link ${isActive('/') ? 'navbar-link-active' : ''}`}>
             Home
           </Link>
-          <Link 
-            href="/about" 
-            className={`navbar-link ${isActive('/about') ? 'navbar-link-active' : ''}`}
-          >
+          <Link href="/about" className={`navbar-link ${isActive('/about') ? 'navbar-link-active' : ''}`}>
             About Us
           </Link>
-          <Link 
-            href="/services" 
-            className={`navbar-link ${isActive('/services') ? 'navbar-link-active' : ''}`}
-          >
+          <Link href="/services" className={`navbar-link ${isActive('/services') ? 'navbar-link-active' : ''}`}>
             Services
           </Link>
-          <Link 
-            href="/our-care" 
-            className={`navbar-link ${isActive('/our-care') ? 'navbar-link-active' : ''}`}
-          >
+          <Link href="/our-care" className={`navbar-link ${isActive('/our-care') ? 'navbar-link-active' : ''}`}>
             Our Care
           </Link>
-          <Link 
-            href="/contact" 
-            className={`navbar-link ${isActive('/contact') ? 'navbar-link-active' : ''}`}
-          >
+          <Link href="/contact" className={`navbar-link ${isActive('/contact') ? 'navbar-link-active' : ''}`}>
             Contact Us
           </Link>
         </div>
