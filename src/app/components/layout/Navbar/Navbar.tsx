@@ -33,7 +33,7 @@ const Navbar = () => {
       <div className="navbar-container">
         <Link href="/" className="navbar-logo">
           <HeartHandshake className="navbar-logo-icon" />
-          <span className="navbar-logo-text">Earnest Support Care</span>
+          <span className="navbar-logo-text">Earnest Domiciliary Care</span>
         </Link>
 
         <button 
