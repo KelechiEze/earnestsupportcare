@@ -32,7 +32,7 @@ const ApproachToCare = () => {
         <div className="approach-header">
           <h2 className="approach-heading">Our Approach to Care</h2>
           <p className="approach-description">
-            At Earnest Support Care, we believe in empowering individuals through compassionate, 
+            At Earnest Domiciliary Care, we believe in empowering individuals through compassionate, 
             personalized support that respects independence and promotes growth.
           </p>
         </div>

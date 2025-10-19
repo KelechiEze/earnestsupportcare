@@ -18,13 +18,13 @@ const ContactSection = () => {
         <div className="contact-content">
           <div className="contact-info">
             <div className="contact-details">
-              <a href="mailto:Lucy@earnestsupportcares.com" className="contact-item">
+              <a href="mailto:Lucy@earnestdomiciliarycares.com" className="contact-item">
                 <div className="contact-icon-wrapper">
                   <Mail className="contact-icon" />
                 </div>
                 <div>
                   <h3 className="contact-label">Email</h3>
-                  <p className="contact-value">Lucy@earnestsupportcares.com</p>
+                  <p className="contact-value">Lucy@earnestdomiciliarycares.com</p>
                 </div>
               </a>
 
