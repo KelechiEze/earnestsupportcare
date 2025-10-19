@@ -16,7 +16,7 @@ const MissionValues = () => {
         <div className="mission-header">
           <h2 className="mission-heading">Our Mission & Values</h2>
           <p className="mission-description">
-            At Earnest Support Care, we believe in providing person-centered care that respects the unique needs and aspirations of each individual.
+            At Earnest Domiciliary Care, we believe in providing person-centered care that respects the unique needs and aspirations of each individual.
           </p>
         </div>
         <div className="values-grid">

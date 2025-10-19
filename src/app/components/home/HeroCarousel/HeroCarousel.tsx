@@ -12,7 +12,7 @@ const slides = [
     image: '/slide1.png',
     title: 'Dedicated and Compassionate Care for a Fulfilling Life',
     subtitle:
-      'At Earnest Support Care, we provide personalised care plans tailored to meet the unique needs of adults with autism, learning difficulties, physical disabilities, and mental health challenges.',
+      'At Earnest Domiciliary Care, we provide personalised care plans tailored to meet the unique needs of adults with autism, learning difficulties, physical disabilities, and mental health challenges.',
   },
   {
     image: '/slide2.png',

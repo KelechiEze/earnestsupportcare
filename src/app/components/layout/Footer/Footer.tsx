@@ -41,9 +41,9 @@ const Footer = () => {
           <div className="footer-section">
             <h3 className="footer-heading">Contact Info</h3>
             <div className="footer-contact">
-              <a href="mailto:Lucy@earnestdomiciliarycares.com" className="footer-contact-item">
+              <a href="mailto:Lucy@earnestsupportcares.com" className="footer-contact-item">
                 <Mail size={18} />
-                <span>Lucy@earnestdomiciliarycares.com</span>
+                <span>Lucy@earnestsupportcares.com</span>
               </a>
               <a href="tel:+447799248331" className="footer-contact-item">
                 <Phone size={18} />
