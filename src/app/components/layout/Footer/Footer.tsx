@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="footer-section">
             <div className="footer-logo">
               <HeartHandshake className="footer-logo-icon" />
-              <span className="footer-logo-text">Earnest Support Care</span>
+              <span className="footer-logo-text">Earnest Domiciliary Care</span>
             </div>
             <p className="footer-description">
               Providing dedicated and compassionate care for adults with autism, learning difficulties, physical disabilities, and mental health challenges.
@@ -41,9 +41,9 @@ const Footer = () => {
           <div className="footer-section">
             <h3 className="footer-heading">Contact Info</h3>
             <div className="footer-contact">
-              <a href="mailto:Lucy@earnestsupportcares.com" className="footer-contact-item">
+              <a href="mailto:Lucy@earnestdomiciliarycares.com" className="footer-contact-item">
                 <Mail size={18} />
-                <span>Lucy@earnestsupportcares.com</span>
+                <span>Lucy@earnestdomiciliarycares.com</span>
               </a>
               <a href="tel:+447799248331" className="footer-contact-item">
                 <Phone size={18} />
@@ -61,7 +61,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-bottom">
-          <p className="footer-copyright">© 2025 Earnest Support Care. All rights reserved.</p>
+          <p className="footer-copyright">© 2025 Earnest Domiciliary Care. All rights reserved.</p>
           <div className="footer-legal">
             <Link href="/terms" className="footer-legal-link">Terms & Conditions</Link>
             <Link href="/privacy" className="footer-legal-link">Privacy Policy</Link>
