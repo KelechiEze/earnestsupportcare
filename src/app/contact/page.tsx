@@ -67,8 +67,8 @@ const Contact = () => {
                     </div>
                     <div className="detail-content">
                       <h3>Email</h3>
-                      <a href="mailto:Lucy@earnestsupportcares.com">
-                        Lucy@earnestsupportcares.com
+                      <a href="mailto:Lucy@earnestdomiciliarycares.com">
+                        Lucy@earnestdomiciliarycares.com
                       </a>
                     </div>
                   </div>
