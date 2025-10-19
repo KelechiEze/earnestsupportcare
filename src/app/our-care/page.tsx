@@ -69,7 +69,7 @@ const OurCare = () => {
                 className="supported-living-image"
               >
                 <img 
-                  src="/supportliving.png" 
+                  src="/agentcare.jpg" 
                   alt="Supported Living" 
                 />
               </motion.div>
