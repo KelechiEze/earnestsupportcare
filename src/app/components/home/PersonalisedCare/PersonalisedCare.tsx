@@ -24,7 +24,7 @@ const PersonalisedCare = () => {
     <section className="personalised-section">
       <div className="personalised-container">
         <div className="personalised-header">
-          <h2 className="personalised-heading">Personalised Care Plans</h2>
+          <h2 className="personalised-heading">Domiciliary Care Plans</h2>
           <p className="personalised-subheading">
             Every individual is unique. Our care plans reflect your specific needs, preferences, and goals.
           </p>

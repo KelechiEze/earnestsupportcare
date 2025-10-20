@@ -34,7 +34,7 @@ const DisabilityServices = () => {
 
           <div className="disability-info">
             <span className="disability-label">Get to Know About Our Services</span>
-            <h2 className="disability-heading">Exceptional Disability Care Services</h2>
+            <h2 className="disability-heading">Exceptional Domiciliary Care Services</h2>
             <p className="disability-description">
               We provide comprehensive support services tailored to meet the unique needs of individuals 
               with learning disabilities, autism, physical disabilities, and mental health challenges.
