@@ -24,7 +24,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h3 className="contact-label">Email</h3>
-                  <p className="contact-value">Lucy@earnestdomiciliarycares.com</p>
+                  <p className="contact-value">Lucy@earnestsupportcares.com</p>
                 </div>
               </a>
 

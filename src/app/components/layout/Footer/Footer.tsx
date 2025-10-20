@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { HeartHandshake, Mail, Phone, MapPin, Facebook, Linkedin } from 'lucide-react';
+import { Mail, Phone, MapPin, Facebook, Linkedin } from 'lucide-react';
 import './Footer.css';
 
 const Footer = () => {
@@ -11,7 +11,11 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-section">
             <div className="footer-logo">
-              <HeartHandshake className="footer-logo-icon" />
+              <img 
+                src="/log1.jpg" 
+                alt="Earnest Domiciliary Care" 
+                className="footer-logo-image"
+              />
               <span className="footer-logo-text">Earnest Domiciliary Care</span>
             </div>
             <p className="footer-description">
@@ -57,6 +61,10 @@ const Footer = () => {
           </div>
 
           <div className="footer-section">
+            <h3 className="footer-heading">Our Commitment</h3>
+            <p className="footer-description">
+              Dedicated to providing exceptional care with compassion, dignity, and respect for all our clients.
+            </p>
           </div>
         </div>
 
