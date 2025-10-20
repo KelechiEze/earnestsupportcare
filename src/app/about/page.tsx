@@ -135,7 +135,7 @@ const About = () => {
                   <div className="cta-contact">
                     <Phone className="phone-icon" />
                     <div>
-                      <p className="phone-number">0 800 555 44 33</p>
+                      <p className="phone-number">---- ---- ----</p>
                       <p className="phone-label">Call to Expert</p>
                     </div>
                   </div>

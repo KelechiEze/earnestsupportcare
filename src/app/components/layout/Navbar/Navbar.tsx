@@ -57,9 +57,9 @@ const Navbar = () => {
           <Link href="/services" className={`navbar-link ${isActive('/services') ? 'navbar-link-active' : ''}`}>
             Services
           </Link>
-          <Link href="/our-care" className={`navbar-link ${isActive('/our-care') ? 'navbar-link-active' : ''}`}>
+         {/*} <Link href="/our-care" className={`navbar-link ${isActive('/our-care') ? 'navbar-link-active' : ''}`}>
             Our Care
-          </Link>
+          </Link>*/}
           <Link href="/contact" className={`navbar-link ${isActive('/contact') ? 'navbar-link-active' : ''}`}>
             Contact Us
           </Link>
