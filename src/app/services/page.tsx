@@ -10,7 +10,7 @@ const Services = () => {
   const services = [
     {
       icon: Home,
-      title: "Supported Living",
+      title: "Domiciliary Care",
       description: "Enabling individuals to live independently in their own homes with tailored support that respects their choices and promotes autonomy.",
       features: ["24/7 support available", "Personal care assistance", "Medication management", "Daily living skills development"],
     },

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Home, Users, ClipboardList } from 'lucide-react';
+import { Home, Users, ClipboardList, Heart, Stethoscope, Clock } from 'lucide-react';
 import './ServicesSection.css';
 
 const services = [
@@ -17,6 +17,21 @@ const services = [
     icon: ClipboardList,
     title: 'Personalised Care Plans',
     description: 'Tailored support plans designed around individual needs, goals, and aspirations.',
+  },
+  {
+    icon: Heart,
+    title: 'Home Care',
+    description: 'We provide a new substance with personal activities ranging from an hour to a couple of hours per day.',
+  },
+  {
+    icon: Stethoscope,
+    title: 'Hospital To Home',
+    description: 'Our compassionate carers can help you or a loved one to settle in after hospital admission.',
+  },
+  {
+    icon: Clock,
+    title: '24hr Live-in Care',
+    description: 'Round-the-clock comprehensive care in the comfort of your own home with dedicated live-in carers.',
   },
 ];
 

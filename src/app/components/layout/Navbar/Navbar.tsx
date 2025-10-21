@@ -36,7 +36,7 @@ const Navbar = () => {
             height={55}
             className="navbar-logo-image"
           />
-          <span className="navbar-logo-text">Earnest Domiciliary Care</span>
+          <span className="navbar-logo-text">Earnest Support Care</span>
         </Link>
 
         <button
