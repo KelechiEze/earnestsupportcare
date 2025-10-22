@@ -1,4 +1,4 @@
-/* Services.css - Reduced Size Version */
+/* Services.css - Updated for Images */
 .services-container {
   min-height: 100vh;
   width: 100%;
@@ -99,26 +99,24 @@
   width: 100%;
 }
 
-.service-detailed-icon {
-  width: 3rem;
-  height: 3rem;
-  background: var(--gradient-hero);
+.service-image-container {
+  width: 4rem;
+  height: 4rem;
   border-radius: 0.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: hsl(var(--primary-foreground));
+  overflow: hidden;
   flex-shrink: 0;
   transition: var(--transition-smooth);
 }
 
-.service-detailed-card:hover .service-detailed-icon {
-  transform: scale(1.05);
+.service-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: var(--transition-smooth);
 }
 
-.service-icon {
-  width: 1.5rem;
-  height: 1.5rem;
+.service-detailed-card:hover .service-image {
+  transform: scale(1.05);
 }
 
 .service-detailed-header h3 {
@@ -161,10 +159,9 @@
   width: 100%;
 }
 
-.feature-icon {
-  width: 1rem;
-  height: 1rem;
+.feature-bullet {
   color: hsl(var(--primary));
+  font-weight: bold;
   flex-shrink: 0;
   margin-top: 0.125rem;
 }
@@ -277,15 +274,10 @@
     align-items: flex-start;
   }
   
-  .service-detailed-icon {
-    width: 2.5rem;
-    height: 2.5rem;
+  .service-image-container {
+    width: 3.5rem;
+    height: 3.5rem;
     border-radius: 0.375rem;
-  }
-  
-  .service-icon {
-    width: 1.25rem;
-    height: 1.25rem;
   }
   
   .service-detailed-header h3 {
@@ -303,11 +295,6 @@
   
   .service-features-list li {
     font-size: 0.85rem;
-  }
-  
-  .feature-icon {
-    width: 0.875rem;
-    height: 0.875rem;
   }
   
   .services-cta-section {
@@ -363,14 +350,9 @@
     font-size: 1rem;
   }
   
-  .service-detailed-icon {
-    width: 2rem;
-    height: 2rem;
-  }
-  
-  .service-icon {
-    width: 1rem;
-    height: 1rem;
+  .service-image-container {
+    width: 3rem;
+    height: 3rem;
   }
   
   .services-cta-content h2 {
