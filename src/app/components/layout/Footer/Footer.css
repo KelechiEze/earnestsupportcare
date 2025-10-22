@@ -223,9 +223,9 @@
   }
 
   .footer-logo {
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    flex-direction: row;
     gap: 1rem;
   }
 
@@ -234,35 +234,35 @@
   }
 
   .footer-section {
-    text-align: center;
-    align-items: center;
+    text-align: left;
+    align-items: flex-start;
   }
 
   .footer-links {
-    align-items: center;
+    align-items: flex-start;
   }
 
   .footer-contact {
-    align-items: center;
+    align-items: flex-start;
   }
 
   .footer-contact-item {
-    justify-content: center;
-    text-align: center;
+    justify-content: flex-start;
+    text-align: left;
   }
 
   .footer-social {
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .footer-bottom {
     flex-direction: column;
-    text-align: center;
+    text-align: left;
     padding: 1.5rem 0;
   }
 
   .footer-legal {
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
     gap: 1rem;
   }

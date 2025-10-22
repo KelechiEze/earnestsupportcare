@@ -13,19 +13,58 @@
   box-sizing: border-box;
 }
 
-/* Hero Section */
+/* Hero Section with Background Image */
 .about-hero {
-  background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--accent)) 100%);
+  position: relative;
   color: white;
   padding: 3rem 0;
   text-align: center;
   width: 100%;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/ser1.jpg');
+  background-size: cover;
+  background-position: center 30%; /* Move image 30% from top */
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    135deg,
+    rgba(20, 20, 20, 0.4) 0%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  z-index: 2;
+}
+
+.about-hero-content {
+  position: relative;
+  z-index: 3;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .about-hero-content h1 {
   font-size: 1.5rem;
   margin-bottom: 0.75rem;
   font-weight: 700;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .about-hero-content .lead {
@@ -33,6 +72,7 @@
   font-weight: 600;
   margin-bottom: 1rem;
   opacity: 0.95;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .hero-description {
@@ -41,6 +81,7 @@
   margin: 0 auto;
   opacity: 0.9;
   line-height: 1.5;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 /* Stats Section */
@@ -455,10 +496,12 @@
   .container {
     padding: 0 1.5rem;
     max-width: 100%;
+    text-align: left;
   }
 
   .about-hero {
     padding: 2rem 0;
+    min-height: 350px;
   }
 
   .about-hero-content h1 {
@@ -573,6 +616,7 @@
 
   .about-hero {
     padding: 1.5rem 0;
+    min-height: 300px;
   }
 
   .about-hero-content h1 {

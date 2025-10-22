@@ -14,6 +14,9 @@ const About = () => {
       
       {/* Hero Section */}
       <section className="about-hero">
+        <div className="hero-background">
+          <div className="hero-overlay"></div>
+        </div>
         <div className="container">
           <motion.div
             initial={{ y: 30, opacity: 0 }}

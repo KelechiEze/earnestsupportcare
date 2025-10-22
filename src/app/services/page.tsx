@@ -108,26 +108,26 @@ const Services = () => {
                   className="service-card-wrapper"
                 >
                   <div className="service-detailed-card">
-                    <div className="service-detailed-header">
-                      <div className="service-image-container">
-                        <img 
-                          src={service.image} 
-                          alt={service.title}
-                          className="service-image"
-                          loading="lazy"
-                        />
-                      </div>
-                      <h3>{service.title}</h3>
+                    <div className="service-image-container">
+                      <img 
+                        src={service.image} 
+                        alt={service.title}
+                        className="service-image"
+                        loading="lazy"
+                      />
                     </div>
-                    <p className="service-detailed-description">{service.description}</p>
-                    <ul className="service-features-list">
-                      {service.features.map((feature) => (
-                        <li key={feature}>
-                          <span className="feature-bullet">•</span>
-                          <span>{feature}</span>
-                        </li>
-                      ))}
-                    </ul>
+                    <div className="service-content">
+                      <h3 className="service-title">{service.title}</h3>
+                      <p className="service-detailed-description">{service.description}</p>
+                      <ul className="service-features-list">
+                        {service.features.map((feature) => (
+                          <li key={feature}>
+                            <span className="feature-bullet">•</span>
+                            <span>{feature}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
                   </div>
                 </motion.div>
               ))}

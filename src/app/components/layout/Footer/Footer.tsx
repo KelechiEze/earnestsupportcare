@@ -19,7 +19,7 @@ const Footer = () => {
               <span className="footer-logo-text">Earnest Domiciliary Care</span>
             </div>
             <p className="footer-description">
-              Providing dedicated and compassionate care for adults with autism, learning difficulties, physical disabilities, and mental health challenges.
+              Providing dedicated and Domiciliary care for adults with autism, learning difficulties, physical disabilities, and mental health challenges.
             </p>
             <div className="footer-social">
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="footer-social-link" aria-label="Facebook">
