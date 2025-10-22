@@ -303,7 +303,7 @@
 .story-label {
   color: hsl(var(--primary));
   font-weight: 600;
-  font-size: 0.7rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   margin-bottom: 0.5rem;
@@ -466,11 +466,11 @@
   }
 
   .about-hero-content .lead {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
 
   .hero-description {
-    font-size: 0.8rem;
+    font-size: 1rem !important;
   }
 
   .about-stats {

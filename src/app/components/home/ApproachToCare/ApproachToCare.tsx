@@ -53,7 +53,7 @@ const ApproachToCare = () => {
         </div>
 
         <div className="approach-cta">
-          <Link href="/our-care" className="cta-button">
+          <Link href="/services" className="cta-button">
             Click here to learn more
           </Link>
         </div>
