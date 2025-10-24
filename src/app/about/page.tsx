@@ -35,35 +35,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="about-stats">
-        <div className="container">
-          <div className="stats-grid">
-            <div className="stat-item">
-              <div className="stat-content">
-                <div className="stat-checkbox">
-                  <div className="checkbox"></div>
-                </div>
-                <div className="stat-text">
-                  <p className="stat-label">OUR OVERALL PATIENTS</p>
-                </div>
-              </div>
-              <div className="stat-number">50k+</div>
-            </div>
-            <div className="stat-item">
-              <div className="stat-content">
-                <div className="stat-checkbox">
-                  <div className="checkbox"></div>
-                </div>
-                <div className="stat-text">
-                  <p className="stat-label">OUR SUCCESS RATE</p>
-                </div>
-              </div>
-              <div className="stat-number">99%</div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* About Intro Section */}
       <section className="about-intro">
@@ -129,21 +100,6 @@ const About = () => {
                 </div>
               </div>
 
-              <div className="intro-cta">
-                <p className="cta-question">Are you eligible looking for NDIS disability services?</p>
-                <div className="cta-actions">
-                  <button className="cta-button">
-                    DISCOVER MORE
-                  </button>
-                  <div className="cta-contact">
-                    <Phone className="phone-icon" />
-                    <div>
-                      <p className="phone-number">---- ---- ----</p>
-                      <p className="phone-label">Call to Expert</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </motion.div>
           </div>
         </div>

@@ -183,7 +183,7 @@
 .intro-label {
   color: hsl(var(--primary));
   font-weight: 600;
-  font-size: 0.7rem;
+  font-size: 1.7rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   margin-bottom: 0.5rem;
@@ -344,7 +344,7 @@
 .story-label {
   color: hsl(var(--primary));
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   margin-bottom: 0.5rem;
@@ -496,7 +496,7 @@
   .container {
     padding: 0 1.5rem;
     max-width: 100%;
-    text-align: left;
+    text-align: center;
   }
 
   .about-hero {
