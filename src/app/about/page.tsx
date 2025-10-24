@@ -26,12 +26,11 @@ const About = () => {
           >
             <h1 className="who-we-are">Who We Are</h1>
             <p className="hero-description">
-              Our organization has been a trusted NDIS disability service provider for individuals with disabilities. We offer personalized, high-quality support to enhance independence and quality of life.
+              Our organisation has been a trusted NDIS disability service provider for individuals with disabilities. We offer personalised, high-quality support to enhance independence and quality of life.
             </p>
           </motion.div>
         </div>
       </section>
-
 
       {/* About Intro Section */}
       <section className="about-intro">
@@ -65,7 +64,7 @@ const About = () => {
               <p className="intro-label">GET TO KNOW ABOUT US</p>
               <h2>Exceptional Disability Care Services</h2>
               <p className="intro-description">
-                At Earnest Domiciliary Care, we are dedicated to providing compassionate, personalized care that empowers individuals to live fulfilling and independent lives. Our approach focuses on respecting individual choice and promoting dignity in every aspect of care.
+                At Earnest Domiciliary Care, we are dedicated to providing compassionate, personalised care that empowers individuals to live fulfilling and independent lives. Our approach focuses on respecting individual choice and promoting dignity in every aspect of care.
               </p>
 
               <div className="intro-features">
@@ -92,8 +91,8 @@ const About = () => {
                   ))}
                 </div>
                 <div className="rating-text">
-                  <p className="rating-title">Helping disability person</p>
-                  <p className="rating-subtitle">is main aim for us</p>
+                  <p className="rating-title">Helping disabled people</p>
+                  <p className="rating-subtitle">is our main aim</p>
                 </div>
               </div>
 
@@ -118,7 +117,7 @@ const About = () => {
                 Earnest Domiciliary Care was founded with a simple yet powerful vision: to provide domiciliary care that goes beyond meeting basic needs. We believe that every individual deserves to be treated with dignity, respect, and compassion.
               </p>
               <p className="story-description">
-                Our journey began with a commitment to supporting adults with learning disabilities, autism, mental health challenges, and physical disabilities. Today, we continue to honor that commitment by offering personalized domiciliary care plans that celebrate each person&apos;s unique strengths and aspirations.
+                Our journey began with a commitment to supporting adults with learning disabilities, autism, mental health challenges, and physical disabilities. Today, we continue to honour that commitment by offering personalised domiciliary care plans that celebrate each person&apos;s unique strengths and aspirations.
               </p>
             </motion.div>
 
@@ -189,7 +188,7 @@ const About = () => {
                   <h2>Our Mission</h2>
                 </div>
                 <p>
-                  To provide exceptional, person-centered care that respects individual choice, promotes independence, and enhances quality of life for adults with diverse needs.
+                  To provide exceptional, person-centred care that respects individual choice, promotes independence, and enhances quality of life for adults with diverse needs.
                 </p>
               </div>
             </motion.div>
@@ -209,7 +208,7 @@ const About = () => {
                   <h2>Our Vision</h2>
                 </div>
                 <p>
-                  A world where every individual, regardless of their abilities, has the opportunity to live a life of dignity, purpose, and fulfillment within their community.
+                  A world where every individual, regardless of their abilities, has the opportunity to live a life of dignity, purpose, and fulfilment within their community.
                 </p>
               </div>
             </motion.div>

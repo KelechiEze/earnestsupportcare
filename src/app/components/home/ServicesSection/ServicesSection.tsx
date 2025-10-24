@@ -10,7 +10,7 @@ const services = [
   },
   {
     icon: Users,
-    title: 'Community Integration Programs',
+    title: 'Community Integration Programmes',
     description: 'Helping individuals connect with their communities through inclusive activities and social events.',
   },
   {
@@ -25,7 +25,7 @@ const services = [
   },
   {
     icon: Stethoscope,
-    title: 'Hospital To Home',
+    title: 'Hospital to Home',
     description: 'Our compassionate carers can help you or a loved one to settle in after hospital admission.',
   },
   {

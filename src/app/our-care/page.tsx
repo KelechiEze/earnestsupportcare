@@ -12,7 +12,7 @@ const OurCare = () => {
     "24/7 support when you need it",
     "Choice and control over your daily life",
     "Community connections and friendships",
-    "Personalized care tailored to you",
+    "Personalised care tailored to you",
     "Safe, secure living environment",
   ];
 
@@ -85,7 +85,7 @@ const OurCare = () => {
                   With supported living, you&apos;ll enjoy the freedom of your own front door, while knowing you&apos;re safe, secure, and never alone.
                 </p>
                 <p>
-                  Our supported living services are designed to help you maintain your independence while receiving the right level of support. Whether you need help with daily tasks, personal care, or simply want someone to check in regularly, we&apos;re here for you.
+                  Our supported living services are designed to help you maintain your independence while receiving the right level of support. Whether you need help with daily tasks, Domiciliary care, or simply want someone to check in regularly, we&apos;re here for you.
                 </p>
 
                 <div className="benefits-list">
@@ -117,7 +117,7 @@ const OurCare = () => {
               className="care-section-header"
             >
               <h2>What Makes Our Care Special</h2>
-              <p>We go beyond basic support to create truly personalized care experiences</p>
+              <p>We go beyond basic support to create truly Domiciliary care experiences</p>
             </motion.div>
 
             <div className="care-features-grid">
@@ -145,8 +145,6 @@ const OurCare = () => {
             </div>
           </div>
         </section>
-
-  
 
         <section className="care-cta-section">
           <div className="care-container">

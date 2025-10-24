@@ -9,6 +9,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-content">
+          {/* Logo and Description */}
           <div className="footer-section">
             <div className="footer-logo">
               <img 
@@ -19,18 +20,31 @@ const Footer = () => {
               <span className="footer-logo-text">Earnest Domiciliary Care</span>
             </div>
             <p className="footer-description">
-              Providing dedicated and Domiciliary care for adults with autism, learning difficulties, physical disabilities, and mental health challenges.
+              Providing dedicated domiciliary care for adults with autism, learning difficulties, physical disabilities, and mental health challenges.
             </p>
             <div className="footer-social">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="footer-social-link" aria-label="Facebook">
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="footer-social-link"
+                aria-label="Facebook"
+              >
                 <Facebook size={20} />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="footer-social-link" aria-label="LinkedIn">
+              <a
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="footer-social-link"
+                aria-label="LinkedIn"
+              >
                 <Linkedin size={20} />
               </a>
             </div>
           </div>
 
+          {/* Quick Links */}
           <div className="footer-section">
             <h3 className="footer-heading">Quick Links</h3>
             <nav className="footer-links">
@@ -42,8 +56,9 @@ const Footer = () => {
             </nav>
           </div>
 
+          {/* Contact Information */}
           <div className="footer-section">
-            <h3 className="footer-heading">Contact Info</h3>
+            <h3 className="footer-heading">Contact Information</h3>
             <div className="footer-contact">
               <a href="mailto:Lucy@earnestsupportcares.com" className="footer-contact-item">
                 <Mail size={18} />
@@ -60,16 +75,20 @@ const Footer = () => {
             </div>
           </div>
 
+          {/* Commitment Section */}
           <div className="footer-section">
             <h3 className="footer-heading">Our Commitment</h3>
             <p className="footer-description">
-              Dedicated to providing exceptional care with compassion, dignity, and respect for all our clients.
+              Dedicated to delivering exceptional care with compassion, dignity, and respect for all our clients.
             </p>
           </div>
         </div>
 
+        {/* Footer Bottom */}
         <div className="footer-bottom">
-          <p className="footer-copyright">© 2025 Earnest Domiciliary Care. All rights reserved.</p>
+          <p className="footer-copyright">
+            © 2025 Earnest Domiciliary Care. All rights reserved.
+          </p>
           <div className="footer-legal">
             <Link href="/terms" className="footer-legal-link">Terms & Conditions</Link>
             <Link href="/privacy" className="footer-legal-link">Privacy Policy</Link>

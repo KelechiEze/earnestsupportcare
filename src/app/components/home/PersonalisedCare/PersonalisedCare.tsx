@@ -15,7 +15,7 @@ const features = [
   {
     icon: Smile,
     title: 'Celebrating Milestones',
-    description: 'Recognizing every achievement along your journey',
+    description: 'Recognising every achievement along your journey',
   },
 ];
 

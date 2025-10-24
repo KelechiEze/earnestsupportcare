@@ -3,7 +3,7 @@ import './MissionValues.css';
 
 const values = [
   { icon: Heart, title: 'Compassion', description: 'We care deeply about the well-being of every individual' },
-  { icon: Users, title: 'Respect', description: 'We honor dignity and individuality in all we do' },
+  { icon: Users, title: 'Respect', description: 'We honour dignity and individuality in all we do' },
   { icon: Shield, title: 'Inclusion', description: 'Everyone deserves to feel welcomed and valued' },
   { icon: Handshake, title: 'Empowerment', description: 'Supporting independence and personal growth' },
   { icon: Star, title: 'Integrity', description: 'We uphold the highest standards of care' },
@@ -16,7 +16,7 @@ const MissionValues = () => {
         <div className="mission-header">
           <h2 className="mission-heading">Our Mission & Values</h2>
           <p className="mission-description">
-            At Earnest Domiciliary Care, we believe in providing person-centered care that respects the unique needs and aspirations of each individual.
+            At Earnest Domiciliary Care, we believe in providing person-centred care that respects the unique needs and aspirations of each individual.
           </p>
         </div>
         <div className="values-grid">

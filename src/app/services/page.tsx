@@ -16,7 +16,7 @@ const Services = () => {
     {
       image: "/ser2.jpg",
       title: "Respite Care",
-      description: "Providing temporary care services that give families and regular caregivers a well-deserved break while ensuring quality support.",
+      description: "Providing temporary care services that give families and regular carers a well-deserved break while ensuring quality support.",
       features: ["Flexible scheduling", "Trained respite workers", "Familiar environment maintained", "Emergency respite available"],
     },
     {
@@ -35,7 +35,7 @@ const Services = () => {
       image: "/ser5.jpg",
       title: "Home Care",
       description: "We provide assistance with personal activities ranging from an hour to a couple of hours per day.",
-      features: ["Flexible hourly care", "Personal activities support", "Daily living assistance", "Regular caregiver matching"],
+      features: ["Flexible hourly care", "Personal activities support", "Daily living assistance", "Regular carer matching"],
     },
     {
       image: "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=400&h=300&fit=crop",
@@ -53,12 +53,12 @@ const Services = () => {
       image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop",
       title: "Health & Wellbeing Support",
       description: "Holistic support for physical and mental health, including coordination with healthcare professionals.",
-      features: ["Health monitoring", "Exercise programs", "Mental health support", "Healthcare coordination"],
+      features: ["Health monitoring", "Exercise programmes", "Mental health support", "Healthcare coordination"],
     },
     {
       image: "/ser7.webp",
       title: "Transport Assistance",
-      description: "Safe and reliable transportation services to help individuals access community facilities, appointments, and social activities.",
+      description: "Safe and reliable transport services to help individuals access community facilities, appointments, and social activities.",
       features: ["Medical appointments", "Shopping assistance", "Social outings", "Accessible vehicles"],
     },
     {

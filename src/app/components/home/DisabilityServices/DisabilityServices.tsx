@@ -83,7 +83,7 @@ const DisabilityServices = () => {
                   </div>
                   <div>
                     <a href="tel:+447799248331" className="contact-number">+44 7799 248331</a>
-                    <p className="contact-label-text">Call to Speak with Expert</p>
+                    <p className="contact-label-text">Call to Speak with an Expert</p>
                   </div>
                 </div>
               </div>

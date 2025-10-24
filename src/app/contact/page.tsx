@@ -24,7 +24,7 @@ const Contact = () => {
             >
               <h1>Get in Touch</h1>
               <p className="contact-lead">
-                We&apos;re here to answer your questions and discuss how we can support you
+                We&apos;re here to answer your questions and discuss how we can support you.
               </p>
             </motion.div>
           </div>
@@ -43,7 +43,7 @@ const Contact = () => {
               >
                 <h2>Contact Information</h2>
                 <p className="contact-intro">
-                  Reach out to us today and let&apos;s discuss how we can help you or your loved ones.
+                  Get in touch with us today and let&apos;s talk about how we can help you or your loved ones.
                 </p>
 
                 <div className="contact-details">
@@ -60,7 +60,7 @@ const Contact = () => {
                       <a href="mailto:Lucy@earnestsupportcares.com">
                         Lucy@earnestsupportcares.com
                       </a>
-                      <p className="detail-description">We respond within 24 hours</p>
+                      <p className="detail-description">We reply within 24 hours</p>
                     </div>
                   </motion.div>
 
@@ -74,8 +74,8 @@ const Contact = () => {
                     </div>
                     <div className="detail-content">
                       <h3>Phone</h3>
-                      <a href="tel:+447799248331">+44 7799248331</a>
-                      <p className="detail-description">Call us anytime</p>
+                      <a href="tel:+447799248331">+44 7799 248331</a>
+                      <p className="detail-description">Call us at any time</p>
                     </div>
                   </motion.div>
 
@@ -103,7 +103,7 @@ const Contact = () => {
                       <Clock className="detail-icon-svg" />
                     </div>
                     <div className="detail-content">
-                      <h3>Hours</h3>
+                      <h3>Opening Hours</h3>
                       <p>Monday - Friday: 9am - 5pm<br />24/7 Support Available</p>
                       <p className="detail-description">Emergency support always available</p>
                     </div>
@@ -120,8 +120,8 @@ const Contact = () => {
                   <h3>Why Choose Us?</h3>
                   <ul>
                     <li>24/7 Professional Care Services</li>
-                    <li>Certified Caregivers</li>
-                    <li>Personalized Care Plans</li>
+                    <li>Certified Carers</li>
+                    <li>Personalised Care Plans</li>
                     <li>Emergency Response Team</li>
                   </ul>
                 </motion.div>
@@ -170,7 +170,7 @@ const Contact = () => {
                       <span>Mon-Fri: 9am-5pm | 24/7 Support</span>
                     </div>
                     <div className="map-note">
-                      <p>📍 Free parking available on site</p>
+                      <p>📍 Free parking available on-site</p>
                       <p>♿ Fully accessible premises</p>
                     </div>
                   </div>

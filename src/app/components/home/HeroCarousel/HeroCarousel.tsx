@@ -18,13 +18,13 @@ const slides = [
     image: '/slide2.png',
     title: 'Empowering Lives Through Community and Inclusion',
     subtitle:
-      'Join our inclusive programs that promote independence, creativity, and social connection in a supportive environment.',
+      'Join our inclusive programmes that promote independence, creativity, and social connection in a supportive environment.',
   },
   {
     image: '/slide3.png',
-    title: 'Building Trust Through Personalized Support',
+    title: 'Building Trust Through Personalised Support',
     subtitle:
-      'Experience one-on-one care that prioritizes your unique needs, goals, and aspirations for a better quality of life.',
+      'Experience one-on-one care that prioritises your unique needs, goals, and aspirations for a better quality of life.',
   },
 ];
 

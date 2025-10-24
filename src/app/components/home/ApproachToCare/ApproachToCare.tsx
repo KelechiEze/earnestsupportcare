@@ -6,7 +6,7 @@ const ApproachToCare = () => {
   const approaches = [
     {
       icon: Heart,
-      title: 'Person-Centered Care',
+      title: 'Person-Centred Care',
       description: 'We place you at the heart of everything we do, tailoring our support to your unique needs and preferences.',
     },
     {
@@ -33,7 +33,7 @@ const ApproachToCare = () => {
           <h2 className="approach-heading">Our Approach to Care</h2>
           <p className="approach-description">
             At Earnest Domiciliary Care, we believe in empowering individuals through compassionate, 
-            personalized support that respects independence and promotes growth.
+            personalised support that respects independence and promotes growth.
           </p>
         </div>
 
