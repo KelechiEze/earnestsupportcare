@@ -24,10 +24,7 @@ const About = () => {
             transition={{ duration: 0.6 }}
             className="about-hero-content"
           >
-            <h1>WHO WE ARE</h1>
-            <p className="lead">
-              A Trusted NDIS Disability Service Provider For Over 26 Years
-            </p>
+            <h1 className="who-we-are">Who We Are</h1>
             <p className="hero-description">
               Our organization has been a trusted NDIS disability service provider for individuals with disabilities. We offer personalized, high-quality support to enhance independence and quality of life.
             </p>

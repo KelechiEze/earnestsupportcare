@@ -180,6 +180,10 @@
   line-height: 1.2;
 }
 
+.who-we-are {
+  font-size: 1.6rem;
+}
+
 .intro-label {
   color: hsl(var(--primary));
   font-weight: 600;
@@ -493,6 +497,9 @@
     padding-top: 60px;
   }
 
+  .who-we-are {
+    font-size: 1.9rem !important;
+  }
   .container {
     padding: 0 1.5rem;
     max-width: 100%;
@@ -614,6 +621,9 @@
     padding: 0 1rem;
   }
 
+   .who-we-are {
+    font-size: 1.9rem !important;
+  }
   .about-hero {
     padding: 1.5rem 0;
     min-height: 300px;
