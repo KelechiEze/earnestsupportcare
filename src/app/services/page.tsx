@@ -14,12 +14,6 @@ const Services = () => {
       features: ["24/7 support available", "Personal care assistance", "Medication management", "Daily living skills development"],
     },
     {
-      image: "/ser2.jpg",
-      title: "Respite Care",
-      description: "Providing temporary care services that give families and regular carers a well-deserved break while ensuring quality support.",
-      features: ["Flexible scheduling", "Trained respite workers", "Familiar environment maintained", "Emergency respite available"],
-    },
-    {
       image: "/ser3.jpg",
       title: "Community Integration",
       description: "Facilitating meaningful participation in community activities, building social connections, and promoting inclusion.",
