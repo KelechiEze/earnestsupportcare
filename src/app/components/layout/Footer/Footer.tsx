@@ -60,9 +60,9 @@ const Footer = () => {
           <div className="footer-section">
             <h3 className="footer-heading">Contact Information</h3>
             <div className="footer-contact">
-              <a href="mailto:Lucy@earnestsupportcares.com" className="footer-contact-item">
+              <a href="mailto:info@earnestsupportcare.co.uk" className="footer-contact-item">
                 <Mail size={18} />
-                <span>Lucy@earnestsupportcares.com</span>
+                <span>info@earnestsupportcare.co.uk</span>
               </a>
               <a href="tel:+447799248331" className="footer-contact-item">
                 <Phone size={18} />
